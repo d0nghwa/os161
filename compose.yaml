@@ -1,0 +1,10 @@
+services:
+  os161:
+    image: donghwak/os161:latest
+    container_name: os161
+    working_dir: /root/os161
+    volumes:
+      - .:/root/os161
+      - ./.gdbinit:/root/.gdbinit
+    stdin_open: true
+    tty: true
