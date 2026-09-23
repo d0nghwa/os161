@@ -6,5 +6,6 @@ services:
     volumes:
       - .:/root/os161
       - ./.gdbinit:/root/.gdbinit
+      - ./.emacs:/root/.emacs
     stdin_open: true
     tty: true
